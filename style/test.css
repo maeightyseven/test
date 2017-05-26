@@ -3,7 +3,7 @@
 body {font-size:1em;}
 .menulist {margin: auto;
            margin-top:auto; }
-        .menulist li {margin-top: auto;}
+.menulist li {margin-top: auto;}
 #ita {	position: relative;}
 #uk {	position: relative;}  
 #logostart {width: auto;}
@@ -46,13 +46,15 @@ h5 {font-size:1.3rem;}
 }
 
 @media screen and (min-width: 768px) { 
-	.menulist {margin-left: 0;
-	margin-top:13px; }
-	body { font-size:1.05em;}
-	.stat { color: white;
-        	background-color: #ffb900;
-        	font-size: 80px;
-        	text-align: center;}
+.menulist {position: absolute;
+	margin-left: 25vw;
+	margin-top: 1%;
+	width: 100vw;
+}body { font-size:1.05em;}
+.stat { color: white;
+       	background-color: #ffb900;
+       	font-size: 80px;
+       	text-align: center;}
 h1 {font-size:4rem;}
 h2 {font-size:2.4rem;}
 h3 {font-size: 2rem;}    
@@ -68,14 +70,12 @@ h5 {font-size:1.5rem;}
         position: absolute;
         top:2%
 }
-.menu {position: absolute;
-        width: 100%;
-        left: 42%;
+
+
+.menulist li a {
+	position: relative;
+	display: inline-flex;
 }
-.menulist {position: relative;
-          left: 0px;
-}
-.menulist li a{margin-left: -10%}
 #logostart {width: 85%;}
 
 }
@@ -324,3 +324,6 @@ h5 {text-align: center;
 #anews1:hover #imgnews1 { opacity: 0.4;}
 #anews2:hover #imgnews2 { opacity: 0.4;}
 #anews3:hover #imgnews3 { opacity: 0.4;}
+.navbar.navbar-inverse.navbar-fixed-top > .container-fluid {
+	padding: 1% 2% 1% 5%;
+}
