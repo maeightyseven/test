@@ -1,0 +1,326 @@
+@media screen and (max-width: 767px) 
+{ 
+body {font-size:1em;}
+.menulist {margin: auto;
+           margin-top:auto; }
+        .menulist li {margin-top: auto;}
+#ita {	position: relative;}
+#uk {	position: relative;}  
+#logostart {width: auto;}
+.menu { background-color: white;
+	width: 100%;
+}
+.stat {color: white;
+        background-color: #ffb900;
+        font-size: 60px;
+        text-align: center;
+        height: 50px
+}
+
+h2 {font-size:1.8rem;}
+h3 {font-size: 1.6rem;}    
+h4 {font-size:1.4rem;} 
+h5 {font-size:1.3rem;} 
+.imgfooter {
+	max-width: 100%;
+}
+#startup4you {font-size: 2.5rem;
+               position: relative;
+               top:45px;
+}
+#intro {position: relative;
+        top:53px;
+        font-size: 1.1rem;
+}
+.sect1 {height: 222px;}
+.sect3 div {padding-top: 5px}
+#badge {
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: 120px;
+	right: -42px;
+	display: none !important;
+}
+#foot {height: 160px;}
+}
+
+@media screen and (min-width: 768px) { 
+	.menulist {margin-left: 0;
+	margin-top:13px; }
+	body { font-size:1.05em;}
+	.stat { color: white;
+        	background-color: #ffb900;
+        	font-size: 80px;
+        	text-align: center;}
+h1 {font-size:4rem;}
+h2 {font-size:2.4rem;}
+h3 {font-size: 2rem;}    
+h4 {font-size:1.7rem;} 
+h5 {font-size:1.5rem;} 
+#startup4you {font-size: 4rem;
+               }
+.sect1 { padding-top: 5%;
+                padding-bottom: 5%;
+}
+#badge { width: 150px;
+        height: 150px;
+        position: absolute;
+        top:2%
+}
+.menu {position: absolute;
+        width: 100%;
+        left: 42%;
+}
+.menulist {position: relative;
+          left: 0px;
+}
+.menulist li a{margin-left: -10%}
+#logostart {width: 85%;}
+
+}
+
+
+.container {width: 100%;
+            padding-left:13.4%;
+            padding-right: 13.4%;}
+.container-fluid, navbar-header{  padding-left: 13.4%;
+    padding-right: 13.4%;}
+
+@font-face { font-family: "Webly Sleek"; src: local("Segoe UI"), url(fonts/weblysleekuisl.ttf); }
+font-face { font-family: "Webly Sleek Semibold"; src: local("Segoe UI Semibold"), url(fonts/weblysleekuisb.ttf); }
+      @font-face { font-family: "Webly Sleek Light"; src: local("Segoe UI Light"), url(fonts/weblysleekuil.ttf); }
+
+p { font-family: "Webly Sleek";}
+a { font-family: "Webly Sleek";}
+button {
+	font-family: "Webly Sleek Semibold";
+	font-weight: 600;
+	font-size: 11px;
+	border: 0px;
+	background-color: aliceblue;	
+}
+
+a:link, .navbar-inverse .navbar-nav > li > a:link {color: #373737;}
+a:visited, .navbar-inverse .navbar-nav > li > a:visited { color: #373737;}
+a:hover, .navbar-inverse .navbar-nav > li > a:hover  { color: #ffb900;}
+h1, h2, h3, h4, h5 {font-family: "Webly Sleek Semibold"}
+
+#background1 {width: 100%;
+                display: none
+}
+nav {
+    min-height: 81px;
+    margin: auto;
+}
+navbar-nav { float: right;
+            margin: 0px;
+}
+.navbar-inverse {background-color: white;
+                      border: 0px;
+}
+.navbar-toggle {background-color: transparent;
+                      position:relative;
+                      top:10px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: lightgray !important;
+	-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+    transition: all 1s;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #00aeef;
+		-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+    transition: all 1s;
+}
+
+.navbar-inverse .navbar-toggle  {border: 0px;
+}
+span.navbar-inverse .navbar-toggle .icon-bar:focus {
+	background-color: none !important;
+	-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+    transition: all 1s;
+}
+.menu li {margin-left: -9px
+}
+
+.sect1 {position: relative;
+        top: 31px;
+        width: 100%;
+        min-width: 50%;
+	background-image: url(../images/background1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 40px;
+        display: none;
+}
+.sect2 {min-height: 565px;}
+
+.sect3 > div {min-height: 172px;
+        background-color: #ffb900;
+}
+.sect4 {height: 510px;
+        background-color: #ebebeb;
+        padding-top: 40px;
+}
+
+.sect5 {background-color: white;
+        margin-top: 40px;
+}
+
+.sect2 > div { text-align: center;}
+.sect2 > .row { margin-top: 35px;
+                margin-bottom: 35px;
+}
+.sect5 a {margin: 5px;} 
+.sect5 h4 {text-align: left;}
+.icon { margin-bottom: 15px;
+        margin-top: 25px;
+	height: 45px;
+	position: relative;
+}
+.blueh { font-family: "Webly Sleek Semibold";
+	color: #1570a6 
+}
+
+#trova {background-color: #1570a6; 
+        margin-top: 35px;
+        margin-bottom: 35px;
+        height: 30px;
+        width:  196px;
+        color: white;
+        border: none;
+}
+
+#stat { background-color: #ffb900;}
+h3 {color: white;
+    text-align: center;
+}
+
+#rec {text-align: center;}
+footer > div {height: 130px;
+        background-color: #3a3830;
+}
+footer p {color: white;
+}
+.sect6 {max-width: 150%;
+        height: 172px;
+        margin-left: auto;
+        margin-right: auto;
+	background-color: #3a3830;}
+#foot {background-color: #3a3830;
+        margin-top: 20px;
+}
+
+.foot {background-color: #3a3830;}
+
+#badge { background-image: url(../images/badge.gif);
+    background-size:contain;
+    float: right;
+    border-radius: 50%;
+    display: none;
+}
+
+#startup4you {z-index: 1;
+            text-align: center;
+            color: white;
+            margin-top: 15%
+}
+#intro {margin-bottom: 17%;}
+h4 {text-align: center;
+    color: white;
+}
+h5 {text-align: center;
+    line-height: 1;
+    font-weight: 600;
+}
+.divnews { padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 30px;
+}
+.imgnews { width: 100%;
+            height: 100%;
+}
+.item {max-height: 350px;}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      margin: auto;
+}
+.joined {background-color: white;
+        min-width: 250px;
+        border: 1px solid #cccccc;
+        height: 350px;
+        margin-bottom: 50px;
+        margin-right: 15%;
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+.logo { width: 100%;
+        height: 150px;    
+	margin: auto;
+}
+.line { height: 1px;
+        max-width: 80%;
+        margin: 10%;
+        background-color: lightslategrey;
+}
+.imgfooter {min-width: 40%;
+            float: left;
+            margin-top: 3%;
+}
+.bx-prev{ background-image: url(../images/left.png);
+        background-repeat: no-repeat;
+        width: 40px;
+         height: 40px;
+        position: absolute;
+        top: 49%;
+        right: 99%;
+        color: transparent;
+}
+.bx-next { background-image: url(../images/right.png);
+            background-repeat:no-repeat;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 49%;
+            color: transparent;
+            text-emphasis-color: transparent;
+            left: 99%;
+}
+.bx-wrapper {max-width: 1170px;
+            min-width: 100%;
+            height: 350px;
+}
+.slider4 > a {margin-left: 0.6%;}
+.slider4 {margin-top: 10px;}
+
+.foot p {text-align: right;
+        color: white;
+        margin-top:7%
+}
+#imghover1 {z-index: -999;
+            padding: 0px;
+}
+#imghover2 {z-index: -999;}
+#imghover3 {z-index: -999;}
+#anews1:hover #imghover1 { background-image: url(../images/hover.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        z-index: 999;
+}
+#anews2:hover #imghover2 { background-image: url(../images/hover.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        z-index: 999;
+}
+#anews3:hover #imghover3 { background-image: url(../images/hover.png);
+			background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        z-index: 999;
+}
+#anews1:hover #imgnews1 { opacity: 0.4;}
+#anews2:hover #imgnews2 { opacity: 0.4;}
+#anews3:hover #imgnews3 { opacity: 0.4;}
